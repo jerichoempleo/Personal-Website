@@ -10,9 +10,37 @@
   #projects {
     height: fit-content;
   }
+
+  .footer-container {
+    margin-top: 10%;
+  }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
+  .skill-container {
+    width: 90%;
+    height: 200px;
+  }
+
+  .footer-container{
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.footer-data {
+  margin-bottom: 5%;
+}
+
+.programming-container, .database-container {
+  gap: 1rem;
+}
+
+.footer-data.flex {
+  margin-top: 10%;
+}
+}
+
+@media screen and (max-width: 768px) {
   #desktop-nav {
     display: none;
   }
@@ -45,15 +73,29 @@
   .about-containers {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .programming-container, .database-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-container{
+    padding: 30px;
 }
+
+  #profile {
+    padding-top: 30%;
+  }
+  
+}
+
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 100%;
   }
   #profile {
-    height: 83vh;
+    height: 100%;
     margin-bottom: 0;
   }
   article {
@@ -69,7 +111,7 @@
     grid-template-columns: 1fr;
   }
   .contact-info-container {
-    margin: 1;
+
   }
   .contact-info-container p,
   .nav-links li a {
@@ -99,6 +141,70 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .programming-container, .database-container {
+    flex-direction: column;
+  }
+
+  .contact-info-upper-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .skill-container {
+    width: 100%;
+  }
+
+  .p-about {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #profile {
+    height: 100%;
+    margin-bottom: 20%;
+    padding-top: 40%;
+  }
+  #projects {
+    height: 100%;
+  }
+
+  #experience {
+    height: 100%;
+  }
+  
+  .article-container {
+    align-items: center;
+    gap: 0;
+  }
+
+  .skill-container {
+    width: 100%;
+  }
+
+  .skillsContainer {
+    margin-bottom: 20%;
+  }
+
+  .contact-info-upper-container {
+    align-items: center;
+        margin-top: 20px;
+  }
+
+  .contact-bottom {
+    margin-left: 1%;
+  }
+  
+  .contact-info-container {
+    flex-direction: column;
+  }
+
+  .p-about {
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
