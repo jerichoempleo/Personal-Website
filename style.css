@@ -876,3 +876,31 @@ nav svg{
     width: 70%;
   }
 }
+
+.education-box {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.pup-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.lcup-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px; /* Space between the logo and the text */
+}
+
+.education-text {
+  display: flex;
+  flex-direction: column;
+}
