@@ -470,6 +470,7 @@ article .icon {
   width: 100%;
   height: 225px;
   border-radius: 1rem;
+  /* border: 1px solid black; */
 }
 
 .project-title {
