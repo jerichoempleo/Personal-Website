@@ -27,5 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
   sr.reveal('.projRow1', { origin: 'left', delay: 400 });
   sr.reveal('.projRow2', { origin: 'right', delay: 400 });
   sr.reveal('#contact', { origin: 'bottom', delay: 400 });
+  //
 });
 
